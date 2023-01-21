@@ -2,10 +2,17 @@
   "name": "shell-play",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "minimist": "^1.2.7",
+    "ora": "^6.1.2",
+    "shelljs": "^0.8.5"
+  }
 }
